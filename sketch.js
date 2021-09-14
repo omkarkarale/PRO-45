@@ -36,7 +36,7 @@ function draw() {
   // player.velocityX = 0;
   background("black");
   // block.collide(player);
-  player.collide(mov_block)
+//   player.collide(mov_block)
   ellipse(player.x+5, player.y-5, 20, 20);
   player.velocityY += 0.8;  
   console.log(player.y)
